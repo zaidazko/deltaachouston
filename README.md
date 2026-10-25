@@ -1,6 +1,6 @@
 # Delta AC Houston
 
-Local HVAC site for Delta AC Houston, built with Vite, React, and TypeScript.
+Marketing site for **DELTA Air Conditioning** — Houston HVAC install and repair for homes, schools, restaurants, offices, and commercial buildings across Greater Houston.
 
 ## Getting started
 
@@ -25,3 +25,4 @@ Open the URL printed by Vite (usually `http://localhost:5173`).
 - [Vite](https://vite.dev/)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- Montserrat (Google Fonts)
