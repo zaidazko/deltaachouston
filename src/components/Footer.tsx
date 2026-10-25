@@ -50,7 +50,7 @@ export function Footer() {
         </div>
       </div>
       <div className="site-footer__bottom">
-        <p>© {new Date().getFullYear()} DELTA Air Conditioning. All rights reserved.</p>
+        <p>© 2026 DELTA Air Conditioning. All rights reserved.</p>
       </div>
     </footer>
   )
