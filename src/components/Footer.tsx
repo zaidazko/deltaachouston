@@ -12,11 +12,11 @@ export function Footer() {
       <div className="site-footer__inner">
         <div className="site-footer__brand">
           <img
-            src="/delta-logo.png"
+            src="/delta-mark.png"
             alt="DELTA Air Conditioning"
             className="site-logo site-logo--footer"
-            width={161}
-            height={50}
+            width={1000}
+            height={858}
           />
           <p>DELTA Air Conditioning — Houston HVAC install and repair.</p>
         </div>
