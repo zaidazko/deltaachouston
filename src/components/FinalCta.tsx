@@ -7,8 +7,8 @@ export function FinalCta() {
         <h2 id="cta-heading">Ready for cooler air?</h2>
         <p>
           Talk with DELTA Air Conditioning about install or repair for your
-          home, restaurant, office, or school. Call {PHONE_DISPLAY} during
-          Mon–Fri 9AM–7PM.
+          residential or commercial property. Call {PHONE_DISPLAY} during
+          Mon-Fri 9AM-7PM.
         </p>
         <div className="hero__ctas">
           <a className="btn btn--primary btn--lg" href={PHONE_HREF}>

@@ -7,16 +7,13 @@ export function About() {
             <h2 id="about-heading">About DELTA</h2>
             <p>
               DELTA Air Conditioning is a Houston HVAC company focused on
-              install and repair for real buildings—homes, restaurants, offices,
-              and schools across the metro.
+              install and repair for residential and commercial properties
+              across the metro.
             </p>
           </header>
           <p className="about__story">
-            We show up for the work that keeps people comfortable: a family
-            living room in Katy, a kitchen line in Sugar Land, a classroom in
-            Spring, a roof pack on an office in downtown Houston. Call during
-            weekday hours and talk with a team that covers residential and
-            commercial side by side.
+            We handle residential and commercial HVAC install and repair. Call
+            during weekday hours and we will help you get the work scheduled.
           </p>
         </div>
         <figure className="about__figure">

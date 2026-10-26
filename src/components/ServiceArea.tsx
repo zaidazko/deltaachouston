@@ -6,10 +6,7 @@ export function ServiceArea() {
       <div className="section__inner">
         <header className="section__header">
           <h2 id="area-heading">Service area</h2>
-          <p>
-            Based in Houston, TX—serving communities across the Greater Houston
-            metro.
-          </p>
+          <p>Based in Houston, TX. Serving communities across Greater Houston.</p>
         </header>
 
         <ul className="city-list">

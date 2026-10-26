@@ -18,7 +18,7 @@ export function Footer() {
             width={161}
             height={50}
           />
-          <p>DELTA Air Conditioning — Houston HVAC install and repair.</p>
+          <p>DELTA Air Conditioning: Houston HVAC install and repair.</p>
         </div>
 
         <div className="site-footer__col">
