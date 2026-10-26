@@ -2,7 +2,7 @@ export const PHONE_DISPLAY = '(713) 894-5760'
 export const PHONE_HREF = 'tel:+17138945760'
 export const EMAIL = 'deltaac2000@yahoo.com'
 export const EMAIL_HREF = 'mailto:deltaac2000@yahoo.com'
-export const HOURS = 'Mon–Fri 9AM–7PM'
+export const HOURS = 'Mon-Fri 9AM-7PM'
 
 export const CITIES = [
   'Houston',
@@ -39,7 +39,7 @@ export const SERVICES: ServiceItem[] = [
   {
     title: 'Installation',
     description:
-      'New systems for homes, restaurants, offices, and school campuses—sized for Houston heat and long service life.',
+      'New systems for residential and commercial properties, sized for Houston heat and long service life.',
     href: PHONE_HREF,
   },
   {
@@ -51,19 +51,13 @@ export const SERVICES: ServiceItem[] = [
   {
     title: 'Residential',
     description:
-      'Comfort for homeowners across Greater Houston—central AC, replacements, and seasonal tune-ups.',
+      'Comfort for homeowners across Greater Houston: central AC, replacements, and seasonal tune-ups.',
     href: PHONE_HREF,
   },
   {
     title: 'Commercial',
     description:
-      'Service for property managers, businesses, and facilities that cannot afford downtime.',
-    href: PHONE_HREF,
-  },
-  {
-    title: 'Schools & campuses',
-    description:
-      'Install and maintain systems that keep classrooms and administration buildings cool and reliable.',
+      'Service for property managers and businesses that cannot afford downtime.',
     href: PHONE_HREF,
   },
   {
@@ -77,7 +71,7 @@ export const SERVICES: ServiceItem[] = [
 export const REASONS = [
   {
     title: 'Jobs at every scale',
-    body: 'From single-family homes to restaurants, office buildings, and school campuses—we work across the sizes that define Houston HVAC.',
+    body: 'From residential to commercial, we handle jobs of every size.',
   },
   {
     title: 'Residential and commercial',
@@ -85,11 +79,11 @@ export const REASONS = [
   },
   {
     title: 'Greater Houston coverage',
-    body: 'Houston, Katy, Cypress, Sugar Land, The Woodlands, Conroe, and communities across the metro—call and we confirm service for your address.',
+    body: 'We cover Houston and Greater Houston. Call and we will confirm service for your address.',
   },
   {
     title: 'Straightforward contact',
-    body: 'Reach us by phone or email during Mon–Fri 9AM–7PM. Call Now when you need a clear next step.',
+    body: `Reach us by phone or email during ${HOURS}. Call Now when you need a clear next step.`,
   },
 ] as const
 
@@ -101,13 +95,12 @@ export type FaqItem = {
 export const FAQS: FaqItem[] = [
   {
     question: 'What areas do you serve?',
-    answer:
-      'We are based in Houston and serve Greater Houston, including Katy, Cypress, Sugar Land, Richmond, Rosenberg, Missouri City, Stafford, Bellaire, Pearland, Friendswood, League City, Pasadena, Baytown, Humble, Kingwood, Atascocita, Spring, Tomball, The Woodlands, Conroe, and Magnolia.',
+    answer: 'We are based in Houston and serve Greater Houston.',
   },
   {
     question: 'Do you handle both residential and commercial work?',
     answer:
-      'Yes. DELTA Air Conditioning installs and repairs systems for homeowners, property managers, restaurants, office buildings, schools, and other commercial facilities.',
+      'Yes. We install and repair systems for homeowners and commercial properties.',
   },
   {
     question: 'What are your hours?',
@@ -115,11 +108,11 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'How do I request service or a quote?',
-    answer: `Call ${PHONE_DISPLAY} or email ${EMAIL} with your address, property type, and what you need—install, repair, or maintenance. We will confirm coverage and next steps.`,
+    answer: `Call ${PHONE_DISPLAY} or email ${EMAIL} with your address, property type, and what you need: install, repair, or maintenance. We will confirm coverage and next steps.`,
   },
   {
-    question: 'Can you work on school and restaurant systems?',
+    question: 'Do you work on commercial systems?',
     answer:
-      'Yes. We regularly support facilities that need dependable cooling for students, staff, guests, and operations—not only single-family homes.',
+      'Yes. We service commercial HVAC for businesses and other commercial properties, not only homes.',
   },
 ]

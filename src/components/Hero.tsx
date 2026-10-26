@@ -17,11 +17,11 @@ export function Hero() {
         <p className="hero__brand">DELTA</p>
         <p className="hero__brand-sub">Air Conditioning</p>
         <h1 id="hero-heading" className="hero__headline">
-          HVAC for Houston homes, schools, and businesses
+          HVAC for Houston residential and commercial properties
         </h1>
         <p className="hero__support">
-          Install and repair across Greater Houston—residential and commercial,
-          from single homes to campuses and office buildings.
+          Install and repair across Greater Houston for residential and
+          commercial customers.
         </p>
         <div className="hero__ctas">
           <a className="btn btn--primary btn--lg" href={PHONE_HREF}>
