@@ -1,6 +1,6 @@
 # Delta AC Houston
 
-Marketing site for **DELTA Air Conditioning** — Houston HVAC install and repair for homes, schools, restaurants, offices, and commercial buildings across Greater Houston.
+Marketing site for **DELTA Air Conditioning**: Houston HVAC install and repair for residential and commercial properties across Greater Houston.
 
 ## Getting started
 
