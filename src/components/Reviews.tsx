@@ -4,19 +4,12 @@ export function Reviews() {
       <div className="section__inner">
         <header className="section__header">
           <h2 id="reviews-heading">Reviews</h2>
-          <p>Customer feedback will appear here once the reviews widget is connected.</p>
+          <p>Google reviews from customers across Greater Houston.</p>
         </header>
 
-        {/*
-          Elfsight Google Reviews embed — reserved mount only.
-          Do not add fake quotes or ratings. Wire the Elfsight script later
-          and target #elfsight-reviews / [data-elfsight-embed].
-        */}
         <div
-          id="elfsight-reviews"
-          className="elfsight-mount"
-          data-elfsight-embed
-          aria-label="Reviews widget placeholder"
+          className="elfsight-app-aa96458e-73cd-4d09-bd06-b0097344f1de"
+          data-elfsight-app-lazy
         />
       </div>
     </section>

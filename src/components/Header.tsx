@@ -16,11 +16,11 @@ export function Header() {
       <div className="site-header__inner">
         <a className="site-header__brand" href="#top" aria-label="DELTA Air Conditioning home">
           <img
-            src="/delta-logo.png"
+            src="/delta-mark.png"
             alt="DELTA Air Conditioning"
             className="site-logo"
-            width={161}
-            height={50}
+            width={1000}
+            height={858}
           />
         </a>
 
