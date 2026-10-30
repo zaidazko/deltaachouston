@@ -2,6 +2,7 @@ export const PHONE_DISPLAY = '(713) 894-5760'
 export const PHONE_HREF = 'tel:+17138945760'
 export const EMAIL = 'deltaac2000@yahoo.com'
 export const EMAIL_HREF = 'mailto:deltaac2000@yahoo.com'
+export const QUOTE_EMAIL_HREF = `mailto:${EMAIL}?subject=${encodeURIComponent('Quote request')}&body=${encodeURIComponent('Address:\nProperty type (residential or commercial):\nWhat you need (install, repair, or maintenance):\n')}`
 export const HOURS = 'Mon-Fri 9AM-7PM'
 
 export const CITIES = [

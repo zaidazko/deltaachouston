@@ -27,6 +27,9 @@ export function Hero() {
             <a className="btn btn--primary btn--lg" href={PHONE_HREF}>
               Call Now
             </a>
+            <a className="btn btn--secondary btn--lg" href="#quote">
+              Get a quote
+            </a>
             <a className="btn btn--secondary btn--lg" href="#contact">
               Request service
             </a>

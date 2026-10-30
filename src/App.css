@@ -512,6 +512,35 @@
   max-width: 44rem;
 }
 
+/* ——— Quote ——— */
+.quote {
+  background: #fff;
+  border-top: 1px solid var(--color-border);
+  padding: clamp(2.25rem, 5vw, 3.25rem) 0;
+  scroll-margin-top: var(--header-h);
+}
+
+.quote__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem 2.5rem;
+}
+
+.quote__copy {
+  max-width: 40rem;
+}
+
+.quote h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin-bottom: 0.45rem;
+}
+
+.quote p {
+  font-size: 1.0625rem;
+}
+
 /* ——— Final CTA ——— */
 .final-cta {
   background: var(--color-primary);
